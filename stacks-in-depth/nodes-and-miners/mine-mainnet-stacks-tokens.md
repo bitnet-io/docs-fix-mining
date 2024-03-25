@@ -28,6 +28,7 @@ Next, update the bitcoin configuration:
 * Store the following configuration somewhere on your filesystem (ex: `$HOME/bitcoin.conf`)
 
 ```toml
+deprecatedrpc=create_bdb
 server=1
 daemon=1
 disablewallet=0
